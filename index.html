@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Hero</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                major: '#121315',
+                minor: '#1e232e',
+            }
+            }
+        }
+        }
+    </script>
+</head>
+<body>
+    <header class="bg-major">
+        <nav class="container mx-auto">
+            <div class="flex justify-between items-center p-2">
+                <div class="flex items-center gap-2">
+                    <img src="images/logo.jpg" class="p-1 w-[50px] h-[40px] object-contain"  alt="logo">
+                    <p class="text-white font-semibold">Programming Hero</p>
+                </div>
+
+                <img src="images/profile.png" alt="" class="w-[50px] h-[50px] rounded-full object-contain">
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
