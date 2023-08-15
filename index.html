@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming Hero</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -27,9 +28,40 @@
                     <p class="text-white font-semibold">Programming Hero</p>
                 </div>
 
-                <img src="images/profile.png" alt="" class="w-[50px] h-[50px] rounded-full object-contain">
+                <img src="images/profile.png" alt="" class="w-[40px] h-[40px] rounded-full object-contain">
             </div>
         </nav>
     </header>
+
+    <main class="bg-minor py-10">
+        <div class="grid grid-cols-3 gap-7 container mx-auto p-2">
+            <div class="col-span-2">
+                <img src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/promotional-images/Frame-1.jpg" class="banner-img w-full h-auto object-cover rounded-lg" alt="">
+
+                <h2 class="title font-semibold text-white text-xl p-2">Milestone 1</h2>
+                <p class="description text-white text-md px-2">Module description will be shown here from the first time</p>
+            </div>
+
+
+            <div class="space-y-4">
+                <div class="bg-major rounded-md max-h-[435px]">
+                    <div id="milestones" class="overflow-y-auto max-h-[435px] p-1">
+
+                    </div>
+                </div>
+
+                <div class="bg-major rounded-md max-h-[435px]">
+                    <div id="donelist" class="overflow-y-auto max-h-[435px] p-1">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

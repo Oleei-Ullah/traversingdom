@@ -1,0 +1,17 @@
+.hided {
+    max-height: 0px;
+    overflow: hidden;
+    transition: .8s;
+}
+
+.show {
+    max-height: 400px!important;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.banner-img {
+    transition: .8s;
+}
